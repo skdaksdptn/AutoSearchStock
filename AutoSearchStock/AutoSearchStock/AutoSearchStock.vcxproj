@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{76CBDDF5-4DCC-4799-A39F-AF0E009184BB}</ProjectGuid>
+    <RootNamespace>AutoSearchStock</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AutoSearchStock.h" />
+    <ClInclude Include="AutoSearchStockDlg.h" />
+    <ClInclude Include="IXingAPI.h" />
+    <ClInclude Include="packet\BMT.h" />
+    <ClInclude Include="packet\BM_.h" />
+    <ClInclude Include="packet\C01.h" />
+    <ClInclude Include="packet\CCEAQ01100.h" />
+    <ClInclude Include="packet\CCEAQ06000.h" />
+    <ClInclude Include="packet\CCEAQ10100.h" />
+    <ClInclude Include="packet\CCEAQ50600.h" />
+    <ClInclude Include="packet\CCEAT00100.h" />
+    <ClInclude Include="packet\CCEAT00200.h" />
+    <ClInclude Include="packet\CCEAT00300.h" />
+    <ClInclude Include="packet\CCEBQ10500.h" />
+    <ClInclude Include="packet\CFOAQ00600.h" />
+    <ClInclude Include="packet\CFOAT00100.h" />
+    <ClInclude Include="packet\CFOAT00200.h" />
+    <ClInclude Include="packet\CFOAT00300.h" />
+    <ClInclude Include="packet\CFOBQ10500.h" />
+    <ClInclude Include="packet\CFOEQ82600.h" />
+    <ClInclude Include="packet\CFOFQ02400.h" />
+    <ClInclude Include="packet\CM0.h" />
+    <ClInclude Include="packet\CM1.h" />
+    <ClInclude Include="packet\CM2.h" />
+    <ClInclude Include="packet\CSPAQ02200.h" />
+    <ClInclude Include="packet\CSPAQ02300.h" />
+    <ClInclude Include="packet\CSPAQ03700.h" />
+    <ClInclude Include="packet\CSPAT00600.h" />
+    <ClInclude Include="packet\CSPAT00700.h" />
+    <ClInclude Include="packet\CSPAT00800.h" />
+    <ClInclude Include="packet\CSPBQ00200.h" />
+    <ClInclude Include="packet\ESN.h" />
+    <ClInclude Include="packet\FC0.h" />
+    <ClInclude Include="packet\FH0.h" />
+    <ClInclude Include="packet\FOCCQ33600.h" />
+    <ClInclude Include="packet\H01.h" />
+    <ClInclude Include="packet\H1_.h" />
+    <ClInclude Include="packet\H2_.h" />
+    <ClInclude Include="packet\h2_4ELW.h" />
+    <ClInclude Include="packet\h3_4ELW.h" />
+    <ClInclude Include="packet\HA_.h" />
+    <ClInclude Include="packet\HB_.h" />
+    <ClInclude Include="packet\IJ_.h" />
+    <ClInclude Include="packet\JC0.h" />
+    <ClInclude Include="packet\JH0.h" />
+    <ClInclude Include="packet\JIF.h" />
+    <ClInclude Include="packet\K3_.h" />
+    <ClInclude Include="packet\KM_.h" />
+    <ClInclude Include="packet\KS_.h" />
+    <ClInclude Include="packet\NC0.h" />
+    <ClInclude Include="packet\NH0.h" />
+    <ClInclude Include="packet\NWS.h" />
+    <ClInclude Include="packet\O01.h" />
+    <ClInclude Include="packet\OC0.h" />
+    <ClInclude Include="packet\OH0.h" />
+    <ClInclude Include="packet\OMG.h" />
+    <ClInclude Include="packet\PM_.h" />
+    <ClInclude Include="packet\S2_.h" />
+    <ClInclude Include="packet\s2_4ELW.h" />
+    <ClInclude Include="packet\S3_.h" />
+    <ClInclude Include="packet\s3_4ELW.h" />
+    <ClInclude Include="packet\S4_.h" />
+    <ClInclude Include="packet\s4_4ELW.h" />
+    <ClInclude Include="packet\SC0.h" />
+    <ClInclude Include="packet\SC1.h" />
+    <ClInclude Include="packet\SC2.h" />
+    <ClInclude Include="packet\SC3.h" />
+    <ClInclude Include="packet\SC4.h" />
+    <ClInclude Include="packet\t1101.h" />
+    <ClInclude Include="packet\t1102.h" />
+    <ClInclude Include="packet\t1104.h" />
+    <ClInclude Include="packet\t1105.h" />
+    <ClInclude Include="packet\t1301.h" />
+    <ClInclude Include="packet\t1302.h" />
+    <ClInclude Include="packet\t1305.h" />
+    <ClInclude Include="packet\t1308.h" />
+    <ClInclude Include="packet\t1404.h" />
+    <ClInclude Include="packet\t1405.h" />
+    <ClInclude Include="packet\t1422.h" />
+    <ClInclude Include="packet\t1427.h" />
+    <ClInclude Include="packet\t1442.h" />
+    <ClInclude Include="packet\t1444.h" />
+    <ClInclude Include="packet\t1449.h" />
+    <ClInclude Include="packet\t1452.h" />
+    <ClInclude Include="packet\t1471.h" />
+    <ClInclude Include="packet\t1485.h" />
+    <ClInclude Include="packet\t1486.h" />
+    <ClInclude Include="packet\t1488.h" />
+    <ClInclude Include="packet\t1511.h" />
+    <ClInclude Include="packet\t1516.h" />
+    <ClInclude Include="packet\t1532.h" />
+    <ClInclude Include="packet\t1537.h" />
+    <ClInclude Include="packet\t1601.h" />
+    <ClInclude Include="packet\t1602.h" />
+    <ClInclude Include="packet\t1603.h" />
+    <ClInclude Include="packet\t1615.h" />
+    <ClInclude Include="packet\t1617.h" />
+    <ClInclude Include="packet\t1621.h" />
+    <ClInclude Include="packet\t1631.h" />
+    <ClInclude Include="packet\t1632.h" />
+    <ClInclude Include="packet\t1633.h" />
+    <ClInclude Include="packet\t1640.h" />
+    <ClInclude Include="packet\t1662.h" />
+    <ClInclude Include="packet\t1664.h" />
+    <ClInclude Include="packet\t1701.h" />
+    <ClInclude Include="packet\t1702.h" />
+    <ClInclude Include="packet\t1809.h" />
+    <ClInclude Include="packet\t1901.h" />
+    <ClInclude Include="packet\t1902.h" />
+    <ClInclude Include="packet\t1903.h" />
+    <ClInclude Include="packet\t1904.h" />
+    <ClInclude Include="packet\t1950.h" />
+    <ClInclude Include="packet\t1951.h" />
+    <ClInclude Include="packet\t1954.h" />
+    <ClInclude Include="packet\t1955.h" />
+    <ClInclude Include="packet\t1956.h" />
+    <ClInclude Include="packet\t1958.h" />
+    <ClInclude Include="packet\t1959.h" />
+    <ClInclude Include="packet\t1960.h" />
+    <ClInclude Include="packet\t1961.h" />
+    <ClInclude Include="packet\t1964.h" />
+    <ClInclude Include="packet\t1966.h" />
+    <ClInclude Include="packet\t1971.h" />
+    <ClInclude Include="packet\t1972.h" />
+    <ClInclude Include="packet\t1973.h" />
+    <ClInclude Include="packet\t1974.h" />
+    <ClInclude Include="packet\t1981.h" />
+    <ClInclude Include="packet\t2101.h" />
+    <ClInclude Include="packet\t2105.h" />
+    <ClInclude Include="packet\t2106.h" />
+    <ClInclude Include="packet\t2201.h" />
+    <ClInclude Include="packet\t2203.h" />
+    <ClInclude Include="packet\t2209.h" />
+    <ClInclude Include="packet\t2210.h" />
+    <ClInclude Include="packet\t2301.h" />
+    <ClInclude Include="packet\t2405.h" />
+    <ClInclude Include="packet\t2421.h" />
+    <ClInclude Include="packet\t2801.h" />
+    <ClInclude Include="packet\t2802.h" />
+    <ClInclude Include="packet\t2804.h" />
+    <ClInclude Include="packet\t2805.h" />
+    <ClInclude Include="packet\t3102.h" />
+    <ClInclude Include="packet\t3202.h" />
+    <ClInclude Include="packet\t3341.h" />
+    <ClInclude Include="packet\t3401.h" />
+    <ClInclude Include="packet\t3521.h" />
+    <ClInclude Include="packet\t4201.h" />
+    <ClInclude Include="packet\t4203.h" />
+    <ClInclude Include="packet\t8401.h" />
+    <ClInclude Include="packet\t8402.h" />
+    <ClInclude Include="packet\t8403.h" />
+    <ClInclude Include="packet\t8404.h" />
+    <ClInclude Include="packet\t8405.h" />
+    <ClInclude Include="packet\t8406.h" />
+    <ClInclude Include="packet\t8407.h" />
+    <ClInclude Include="packet\t9905.h" />
+    <ClInclude Include="packet\t9907.h" />
+    <ClInclude Include="packet\t9942.h" />
+    <ClInclude Include="packet\t9943.h" />
+    <ClInclude Include="packet\t9944.h" />
+    <ClInclude Include="packet\t9945.h" />
+    <ClInclude Include="packet\TH_.h" />
+    <ClInclude Include="packet\TS_.h" />
+    <ClInclude Include="packet\YFC.h" />
+    <ClInclude Include="packet\YJ_.h" />
+    <ClInclude Include="packet\YK3.h" />
+    <ClInclude Include="packet\YOC.h" />
+    <ClInclude Include="packet\YS3.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AutoSearchStock.cpp" />
+    <ClCompile Include="AutoSearchStockDlg.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AutoSearchStock.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\AutoSearchStock.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\AutoSearchStock.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="AutoSearchStock.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

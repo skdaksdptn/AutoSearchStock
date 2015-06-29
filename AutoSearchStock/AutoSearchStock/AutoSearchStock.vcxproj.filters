@@ -1,0 +1,564 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\packet">
+      <UniqueIdentifier>{126a4231-9a8e-41b6-a5df-6a6d30219a1c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AutoSearchStock.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoSearchStockDlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="IXingAPI.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\BM_.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\BMT.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\C01.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\CCEAQ01100.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\CCEAQ06000.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\CCEAQ10100.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\CCEAQ50600.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\CCEAT00100.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\CCEAT00200.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\CCEAT00300.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\CCEBQ10500.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\CFOAQ00600.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\CFOAT00100.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\CFOAT00200.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\CFOAT00300.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\CFOBQ10500.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\CFOEQ82600.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\CFOFQ02400.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\CM0.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\CM1.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\CM2.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\CSPAQ02200.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\CSPAQ02300.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\CSPAQ03700.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\CSPAT00600.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\CSPAT00700.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\CSPAT00800.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\CSPBQ00200.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\ESN.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\FC0.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\FH0.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\FOCCQ33600.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\H01.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\H1_.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\H2_.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\h2_4ELW.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\h3_4ELW.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\HA_.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\HB_.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\IJ_.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\JC0.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\JH0.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\JIF.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\K3_.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\KM_.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\KS_.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\NC0.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\NH0.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\NWS.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\O01.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\OC0.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\OH0.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\OMG.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\PM_.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\S2_.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\s2_4ELW.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\S3_.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\s3_4ELW.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\S4_.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\s4_4ELW.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\SC0.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\SC1.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\SC2.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\SC3.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\SC4.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1101.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1102.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1104.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1105.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1301.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1302.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1305.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1308.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1404.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1405.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1422.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1427.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1442.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1444.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1449.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1452.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1471.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1485.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1486.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1488.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1511.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1516.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1532.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1537.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1601.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1602.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1603.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1615.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1617.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1621.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1631.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1632.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1633.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1640.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1662.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1664.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1701.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1702.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1809.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1901.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1902.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1903.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1904.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1950.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1951.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1954.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1955.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1956.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1958.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1959.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1960.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1961.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1964.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1966.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1971.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1972.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1973.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1974.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t1981.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t2101.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t2105.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t2106.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t2201.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t2203.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t2209.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t2210.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t2301.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t2405.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t2421.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t2801.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t2802.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t2804.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t2805.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t3102.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t3202.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t3341.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t3401.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t3521.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t4201.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t4203.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t8401.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t8402.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t8403.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t8404.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t8405.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t8406.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t8407.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t9905.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t9907.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t9942.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t9943.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t9944.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\t9945.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\TH_.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\TS_.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\YFC.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\YJ_.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\YK3.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\YOC.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="packet\YS3.h">
+      <Filter>헤더 파일\packet</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AutoSearchStock.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoSearchStockDlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AutoSearchStock.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\AutoSearchStock.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\AutoSearchStock.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
